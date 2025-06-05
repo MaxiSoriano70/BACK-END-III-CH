@@ -21,6 +21,6 @@ export const config={
     },
     DATABASE:{
         MONGO_URL: process.env.MONGO_URL,
-        DB_NAME: "empresaXXpruebas", 
+        DB_NAME: "empresaXXpruebas",
     }
 }

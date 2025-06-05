@@ -1,0 +1,12 @@
+CLASE 1
+
+npm install commander
+
+03 Commander
+node src/03-commander.js --port 8080 -d -colors verde amarillo rosa --user karu
+
+04 Dotenv
+
+npm install dotenv
+
+node --env-file ./.env ./src/04-dotenv.js
