@@ -1,0 +1,23 @@
+CLASE 2
+
+node --watch  ./clase01-20250510-processTddMocs/00-processChild/src/08-a-processChild.js
+
+node --watch  ./src/08-a-processChild.js 
+
+cd ./clase01-20250510-processTddMocs/01-tdd
+
+npm install colors
+
+node suma.test.js
+
+cd ./02-jest/
+
+npm install -D jest @types/jest
+
+npx jest
+
+npm test
+
+cd ./03-Mocks/
+
+npm install @faker-js/faker
