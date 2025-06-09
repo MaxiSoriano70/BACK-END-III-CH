@@ -8,5 +8,5 @@ for(let i=0; i<10; i++){
     let apellido=fa.person.lastName()
     console.log("nombres:", nombre, apellido)
     console.log("email:", fa.internet.email({firstName: nombre, lastName: apellido, provider: "hotmail.com"}))
-    console.log("*********\n")
+    console.log("**************\n")
 }
